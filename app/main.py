@@ -5,8 +5,8 @@ import uvicorn
 from app.api import predict, viz
 
 app = FastAPI(
-    title='DS API',
-    description='Lorem ipsum',
+    title='House Price DS API',
+    description='Predict house prices in California',
     version='0.1',
     docs_url='/',
 )
