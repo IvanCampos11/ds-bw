@@ -5,8 +5,9 @@ import uvicorn
 from app.api import predict, viz
 
 app = FastAPI(
-    title='House Price DS API',
-    description='Predict house prices in California',
+    title='Kickstarter Success',
+    description='Predict If a Kickstarter will be successful based on '
+                'monetary goal, description, campaign length, and categories',
     version='0.1',
     docs_url='/',
 )
